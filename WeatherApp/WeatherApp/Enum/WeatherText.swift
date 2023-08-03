@@ -23,4 +23,8 @@ enum WeatherText: String, Decodable, Hashable {
     case sunny = "Sunny"
     case patchyLightRainWithThunder = "Patchy light rain with thunder"
     case fog = "Fog"
+    case mist = "Mist"
+    case thunder = "Thundery outbreaks possible"
+    case shower = "Moderate or heavy rain shower"
+    case ligthRainPatch = "Patchy light rain"
 }

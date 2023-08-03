@@ -52,5 +52,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B55274A5-DEA6-44E5-BA0A-7E7600211CE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherApp/CurrentLocationView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B55274A5-DEA6-44E5-BA0A-7E7600211CE0 - 89d698ac16700a8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.HStack&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI.HStack&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt;&gt;&gt; in closure #3 () -&gt; SwiftUI.VStack&lt;SwiftUI.ScrollView&lt;SwiftUI.HStack&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ModifiedContent&lt;SwiftUI.Text, WeatherApp.WeatherTitleModifire&gt;, SwiftUI.ModifiedContent&lt;SwiftUI.Text, WeatherApp.StandartTextModifire&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in WeatherApp.CurrentLocationView.body.getter : some"
+                  moduleName = "WeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antongodunov/DEVops/WeatherApp/WeatherApp/CurrentLocationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "B55274A5-DEA6-44E5-BA0A-7E7600211CE0 - b872a954ebb4ade3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WeatherApp.HourWeatherModel) -&gt; Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt; in closure #1 () -&gt; Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.HStack&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI.HStack&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt;&gt;&gt; in closure #3 () -&gt; SwiftUI.VStack&lt;SwiftUI.ScrollView&lt;SwiftUI.HStack&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Array&lt;WeatherApp.HourWeatherModel&gt;, WeatherApp.HourWeatherModel, Swift.Optional&lt;WeatherApp.HourWeatherCellView&gt;&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ModifiedContent&lt;SwiftUI.Text, WeatherApp.WeatherTitleModifire&gt;, SwiftUI.ModifiedContent&lt;SwiftUI.Text, WeatherApp.StandartTextModifire&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in WeatherApp.CurrentLocationView.body.getter : some"
+                  moduleName = "WeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antongodunov/DEVops/WeatherApp/WeatherApp/CurrentLocationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

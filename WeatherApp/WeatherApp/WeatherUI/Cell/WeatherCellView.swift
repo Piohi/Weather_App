@@ -43,6 +43,14 @@ struct WeatherCellView: View {
             return  "cloud.bolt.rain.fill"
         case .fog:
            return "cloud.fog"
+        case .mist:
+            return "aqi.high"
+        case .thunder:
+            return "bolt.fill"
+        case .shower:
+            return "cloud.heavyrain.fill"
+        case .ligthRainPatch:
+            return  "cloud.rain.fill"
             
         }
     }

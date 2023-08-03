@@ -43,6 +43,15 @@ struct HourWeatherCellView: View {
             return  "cloud.bolt.rain.fill"
         case .fog:
             return "cloud.fog"
+        case .mist:
+            return "aqi.high"
+        case .thunder:
+            return "bolt.fill"
+        case .shower:
+            return "cloud.heavyrain.fill"
+        case .ligthRainPatch:
+            return  "cloud.rain.fill"
+            
             
         }
     }
@@ -60,5 +69,12 @@ struct HourWeatherCellView: View {
                 .modifier(StandartTextModifire())
                 .offset(x: 5.0)
         }
+    }
+}
+
+
+struct HourWeatherCellView_Preview: PreviewProvider {
+    static var previews: some View {
+        HourWeatherCellView(weather: HourWeatherModel())
     }
 }
