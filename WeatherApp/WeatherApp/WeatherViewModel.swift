@@ -15,7 +15,7 @@ final class WeatherViewModel: ObservableObject {
     private let service = APIService()
     
     func fetchCurrentWeather() {
-        service.getForecast(for: "Moscow") { result in
+        service.getForecast(for: "London") { result in
             switch result {
             case .success(let success):
                 DispatchQueue.main.async {
