@@ -94,25 +94,25 @@ struct CurrentLocationView: View {
                 .cornerRadius(20)
                 
 
-//
-//
-//                HStack{
-//                    HumidityView()
-//                    Spacer()
-//                    VisabilityView()
-//
-//
-//                }
-//                .padding(.top, 8)
-//
-//                HStack{
-//                   UVIndexView()
-//                    Spacer()
-//                    MapView(coordinate: CLLocationCoordinate2D(latitude: viewModel.weather.location.lat , longitude: viewModel.weather.location.lon))
-//
-//                }
-//                .padding(.top, 8)
-//
+
+
+                HStack{
+                    HumidityView()
+                    Spacer()
+                    VisabilityView()
+
+
+                }
+                .padding(.top, 8)
+
+                HStack{
+                   UVIndexView()
+                    Spacer()
+                    MapView(coordinate: CLLocationCoordinate2D(latitude: viewModel.weather.location.lat , longitude: viewModel.weather.location.lon))
+
+                }
+                .padding(.top, 8)
+
 
                 }
             .frame(maxWidth: .infinity,

@@ -41,6 +41,8 @@ struct HourWeatherCellView: View {
             return "sun.max.fill"
         case .patchyLightRainWithThunder:
             return  "cloud.bolt.rain.fill"
+        case .mist:
+            return "aqi.low"
             
         }
     }
